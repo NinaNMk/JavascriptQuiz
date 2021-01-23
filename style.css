@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    
+}
+
+section{
+    font-size: 22px;
+    color:#251a12;
+    align-items:center;
+ 
+}
+
+.question{
+    margin-top:35px;
+}
+
+body{
+    background:#ffd902; 
+}
+
+
+
+p{
+    margin-left:80px;
+    color:#493323;
+    font-size:25px;
+    font-style: italic;
+    position: fixed 
+    
+}
+
+div {
+display:flex;
+margin: auto;
+width: 20%;
+padding: 10px;
+
+}
+
+.wrong, .true{
+    margin-bottom:4px;
+    font-size:15px;
+    cursor: pointer;  
+}
+
+hr{
+    width: 22%;
+    margin:auto;
+}
